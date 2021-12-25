@@ -28,8 +28,8 @@ let getDatosUsuario = async (ip) => {
     response.json().then((json) => {
       const output = `
           ---------------------
-	        Ip: ${ip}
-	        Continente: ${json.continent_name}
+	  Ip: ${ip}
+	  Continente: ${json.continent_name}
           Pais: ${json.country_name}
           Provincia: ${json.state_prov}
           Ciudad: ${json.city}
